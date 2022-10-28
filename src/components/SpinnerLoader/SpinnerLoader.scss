@@ -1,0 +1,30 @@
+.loader {
+    position: relative;
+    border-radius: 50%;
+  
+    text-indent: -9999em;
+  
+    height: 18px;
+    width: 18px;
+    border: 1px solid transparent;
+    margin-right: 6px;
+    border-width: 2px;
+    border-left-color: #6f7994;
+    border-top-color: #6f7994;
+    border-bottom-color: #6f7994;
+    border-right-color: transparent;
+  
+    transform: translateZ(0);
+    -webkit-animation: loader-animation 1.1s linear infinite;
+    animation: loader-animation 1.1s linear infinite;
+    vertical-align: middle;
+}
+
+@keyframes loader-animation {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(1turn);
+    }
+}
